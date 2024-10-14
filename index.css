@@ -1,0 +1,80 @@
+
+#Main{
+    height: 97vh;
+    width: 98vw;
+    gap:4%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+
+}
+#Navbar{
+    width: 100%;
+    height:10%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#left{
+    font-size: 16px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    width: 33%;
+    gap:1vw;
+    color: rgba(42, 39, 39, 0.886);
+} 
+#right{
+    font-size: 16px;
+    width: 7%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    gap:1%;
+    color: rgba(42, 39, 39, 0.886);
+    
+}
+#home{
+    height: 60%;
+    width: 88%;
+    margin:0 6%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center; 
+    gap:3%;
+}
+#home h1{
+    font-size: 2.6em;
+}
+#home p{
+    font-size: 1.2em;
+    margin:0 20%;
+    color: gray;
+    text-align: center;
+}
+#text{
+    font-size: 14px;
+    margin-left:9%;
+    color: gray;
+}
+#text span{
+    color:skyblue;
+}
+#video{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap:1vw;
+    font-size: 1em;
+    margin-top: 2%;
+    color: #0d9dfd;
+    font-weight: 550;
+}
